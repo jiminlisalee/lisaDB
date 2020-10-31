@@ -23,7 +23,7 @@
 ![다음줄까지조회](https://user-images.githubusercontent.com/70564298/97769835-8e71a900-1b71-11eb-81c9-3f37a0dfcc8c.PNG)
 
 ⁉ 다시 데이터를 모두 삭제하고 (TRUNCATE) 다시 IMPORT했다. 그 이후로는 정확하게 데이터가 조회됬다.
-도움받기 >>> https://dev.mysql.com/doc/refman/8.0/en/load-data.html#load-data-column-list
+도움받기 > https://dev.mysql.com/doc/refman/8.0/en/load-data.html#load-data-column-list
 
 ## 데이터 분석 기능 4가지
 1. 한국 tvshow,movie를 방송년도 오름차순으로 확인 가능
