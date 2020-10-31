@@ -10,7 +10,7 @@
     <h1> NETFLIX TV show / Movie </h1>
     
     
-    (1)<a href="korea.php"> 한국 tv show/movie 조회</a><br>
+    (1)<a href="koreaTV.php"> 한국 tv show/movie 조회</a><br>
     
     
     <form action="by_title.php" method="GET">
@@ -27,10 +27,10 @@
 
     </form>
     
-    <form action="release_year.php" method="GET">
+    <form action="by_release_year.php" method="GET">
         (5) 국가/방송년도별 조회:
-        <input type="text" name="release_year" placeholder="년도를 입력해주세요!">
         <input type="text" name="country" placeholder="국가를 입력해주세요!">
+        <input type="text" name="release_year" placeholder="년도를 입력해주세요!">
         <input type="submit" value="Search">
 
     </form>
