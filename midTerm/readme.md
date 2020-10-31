@@ -10,7 +10,9 @@
 
 ## 데이터
 - kaggle에서 데이터 가져오기
+![우분투에 옮기기](https://user-images.githubusercontent.com/70564298/97769723-cc220200-1b70-11eb-9b6d-27f1497f0a54.PNG)
 
+kaggle에서 데이터셋을 다운받아 우분투 서버에 /home/test로 옮겼다.
 ## 데이터 분석 기능 4가지
 1. 한국 tvshow,movie를 방송년도 오름차순으로 확인 가능
 2. 제목을 기입하여 해당 프로그램의 정보 확인 가능
