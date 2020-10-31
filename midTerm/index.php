@@ -27,9 +27,10 @@
 
     </form>
     
-    <form action="by_country.php" method="GET">
-        (5) 방송년도별 조회:
-        <input type="text" name="release_year" placeholder="국가를 입력해주세요!">
+    <form action="release_year.php" method="GET">
+        (5) 국가/방송년도별 조회:
+        <input type="text" name="release_year" placeholder="년도를 입력해주세요!">
+        <input type="text" name="country" placeholder="국가를 입력해주세요!">
         <input type="submit" value="Search">
 
     </form>
