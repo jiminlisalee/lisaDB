@@ -16,6 +16,14 @@ if(isset($_GET['country'])){
 
   $query = "SELECT * FROM netflix where release_year = '{$filtered_release_year}' AND country = '{$filtered_country}'";
   $result = mysqli_query($link, $query);  
+  $count = mysqli_num_rows($result);
+
+  if($count == 0){
+      echo '데이터가 없습니다. <a href="index.php">돌아가기</a>';
+  }
+
+
+
   $emp_info = '';
   while($row = mysqli_fetch_array($result)) {
     $emp_info .= '<tr>';
@@ -27,6 +35,7 @@ if(isset($_GET['country'])){
     $emp_info .= '<td>'.$row['description'].'</td>';    
     $emp_info .= '<td>'.$row['release_year'].'</td>';    
     $emp_info .= '</tr>';
+
   }
   
 ?>
