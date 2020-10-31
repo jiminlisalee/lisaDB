@@ -49,7 +49,7 @@ if(isset($_GET['country'])){
 </head>
 
 <body>
-    <h2><a href="index.php">홈으로</a>| 년도별 조회</h2>
+    <h2><a href="index.php">홈으로</a>| 국가/방송년도별 조회</h2>
     <table border="1">
         <tr>
             <th>show_id</th>
