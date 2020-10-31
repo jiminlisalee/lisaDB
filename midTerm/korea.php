@@ -1,12 +1,6 @@
 <?php
   $link = mysqli_connect('localhost', 'admin', 'admin', 'middleT');
-
-  if(isset($_GET['country'])){
-    $filtered_country = mysqli_real_escape_string($link, $_GET['country']);
-} else {
-    $filtered_country= mysqli_real_escape_string($link, $_POST['country']);        
-}
-  $query = "SELECT * FROM netflix where country = '{$filtered_country}'";
+  $query = "SELECT * FROM netflix where country ='south korea'ORDER BY release_year";
   $result = mysqli_query($link, $query);  
   $emp_info = '';
   while($row = mysqli_fetch_array($result)) {
@@ -32,7 +26,7 @@
 </head>
 
 <body>
-    <h2><a href="index.php">홈으로</a>| 나라별 조회</h2>
+    <h2><a href="index.php">홈으로</a>| 한국 TV show/Movie</h2>
     <table border="1">
         <tr>
             <th>show_id</th>
